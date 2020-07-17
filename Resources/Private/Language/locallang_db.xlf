@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2020-02-10T22:28:37Z" product-name="bd_instagram">
+		<header/>
+		<body>
+			<trans-unit id="tx_bdinstagram_domain_model_media">
+				<source>Media</source>
+			</trans-unit>
+			<trans-unit id="tx_bd_instagram_instagramfeed.name">
+				<source>Instagram Feed</source>
+			</trans-unit>
+			<trans-unit id="tx_bd_instagram_instagramfeed.description">
+				<source>Display a list of media published on Instagram</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

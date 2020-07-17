@@ -1,0 +1,20 @@
+<f:layout name="Default" />
+
+<f:section name="content">
+	<f:if condition="{media}">
+		<f:then>
+			<div class="row">
+				<f:for each="{media}" as="image">
+					<div class="col-md-3">
+						<f:link.external uri="{image.permalink}" target="_blank">
+							<img src="{f:if(condition: '{image.thumbnail_url}', then: '{image.thumbnail_url}', else: '{image.media_url}')}" class="m-4 img-thumbnail img-fluid" alt="test" width="450">
+						</f:link.external>
+					</div>
+				</f:for>
+			</div>
+		</f:then>
+		<f:else>
+			<p>Instagram feed is not available at the moment, go to our <a href="#" target="_blank">Sanatorium Instagram page</a> instead.</p>
+		</f:else>
+	</f:if>
+</f:section>
